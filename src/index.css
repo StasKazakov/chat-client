@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  background-color: #111827;
+  width: 100vw;
+  min-height: 100%;
+  height: auto;
+}
+
+/* Hidden scroll */
+::-webkit-scrollbar {
+  display: none; 
+}
