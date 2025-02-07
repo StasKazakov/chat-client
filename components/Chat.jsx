@@ -6,7 +6,7 @@ import { FaRegSmileBeam } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import Messages from './Messages';
 
-const socket = io.connect('http://194.163.191.34:4500');
+const socket = io.connect('https://194.163.191.34:4500');
 
 const Chat = () => {
     const { search } = useLocation();
